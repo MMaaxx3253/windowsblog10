@@ -1,0 +1,17 @@
+body {
+    background-image: url(imgs/bg.png);
+}
+.namec, .time, .date {
+    color: white;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+.taskbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
